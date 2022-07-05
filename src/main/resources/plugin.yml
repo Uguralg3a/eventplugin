@@ -1,0 +1,26 @@
+name: Event
+version: '${version}'
+main: de.ugur.event.Main
+api-version: 1.16
+authors: [ Ugur ]
+commands:
+  timer:
+    permission: event.command.timer
+  gamemode:
+    permission: event.command.gamemode
+  gm:
+    permission: event.command.gm
+  challanges:
+    permission: event.command.challanges
+  admin:
+    permission: event.command.admin
+  teleportall:
+    permission: event.admin.teleportall
+  oneheart:
+    permission: event.challange.oneheart
+  test:
+    permission: event.challange.test
+  normal:
+    permission: event.challange.normal
+  chatclear:
+    permission: event.admin.chatclear
